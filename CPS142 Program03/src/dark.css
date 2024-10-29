@@ -1,0 +1,71 @@
+// Color shades from black to lighter: 
+// black, #101010, #202020, #404040, and #1c2841 is yankee blue
+
+// Color shades from white to darker:
+// white, #F5F5F5, #E8E8E8, #DCDCDC, and #f0f8ff is alice blue
+
+
+.root {
+	-fx-font-family: sans-serif;
+	-fx-background-color: #101010;
+	-fx-font-size : 11pt;
+}
+
+
+// LABELS
+.label {
+	-fx-text-fill: #F5F5F5;
+	-fx-text-alignment: left;	
+}
+
+
+// MENU Appearance
+.context-menu {
+    -fx-padding: 0;
+}
+.menu .label {
+	-fx-text-fill: white;
+	-fx-font-size : 13pt;
+	-fx-font-weight : bold;
+}
+.menu-bar {
+	-fx-background-color: #202020;
+}
+.menu-button {
+	-fx-background-color: #202020;
+}
+.menu-item {
+	-fx-background-color: #404040;
+}
+
+
+// Left side
+.combo-box-base {
+	-fx-font-weight: bold;
+	-fx-background-color: #1c2841;
+	-fx-border-color: #404040;
+	-fx-border-width: 3px;
+}
+.radio-button {
+	-fx-text-fill: white;
+}
+
+
+// ListView - Middle
+.list-view {
+	-fx-background-color: #1c2841;
+	-fx-border-color: #404040;
+	-fx-border-width: 3px;
+}
+.list-cell {
+	-fx-background-color: #1c2841;
+	-fx-text-fill: white;
+}
+.list-view .scroll-bar {
+	-fx-background-color: #404040;
+}
+
+.list-cell:filled:selected {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}

@@ -1,0 +1,64 @@
+// Color shades from black to lighter: 
+// black, #101010, #202020, #404040, and #1c2841 is yankee blue
+
+// Color shades from white to darker:
+// white, #F5F5F5, #E8E8E8, #DCDCDC, and #f0f8ff is alice blue
+
+
+.root {
+	-fx-font-family: sans-serif;
+	-fx-background-color: #F5F5F5;
+	-fx-font-size : 13pt;
+}
+
+
+// LABELS
+.label {
+	-fx-text-fill: #101010;
+	-fx-text-alignment: left;	
+}
+
+
+// MENU Appearance
+.context-menu {
+    -fx-padding: 0;
+}
+.menu .label {
+	-fx-text-fill: black;
+	-fx-font-size : 15pt;
+	-fx-font-weight : bold;
+}
+.menu-bar {
+	-fx-background-color: #E8E8E8;
+}
+.menu-button {
+	-fx-background-color: #E8E8E8;
+}
+.menu-item {
+	-fx-background-color: #DCDCDC;
+}
+
+
+// ComboBox - Left side
+.combo-box-base {
+	-fx-font-weight: bold;
+	-fx-background-color: #f0f8ff;
+	-fx-border-color: #DCDCDC;
+	-fx-border-width: 3px;
+}
+
+
+// ListView - Middle
+.list-view {
+	-fx-background-color: #f0f8ff;
+	-fx-border-color: #DCDCDC;
+	-fx-border-width: 3px;
+}
+.list-cell {
+	-fx-background-color: #f0f8ff;
+	-fx-text-fill: black;
+}
+.list-view .scroll-bar {
+	-fx-background-color: #DCDCDC;
+}
+
