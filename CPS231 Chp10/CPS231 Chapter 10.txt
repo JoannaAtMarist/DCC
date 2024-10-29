@@ -1,0 +1,6 @@
+Chapter 10
+Project 16: Some online stores offer their customers a gift registry, where they can enter items that they would like to receive as gifts for a special event. Let's let the customer rank the gifts in order of preference in the registry. You need to:
+1. Design an ADT to represent the gift registry.
+2. Implement your ADT in pseudocode using the operations of the ADT list.
+3. Implement your ADT using the class OurList. OurList comes from Project 2 in Chapter 10, which states: using the standard class ArrayList, define a class OurList of lists that implement the interface ListInterface, as defined in Listing 10-1 of this chapter.  
+You must provide all the code necessary to compile and test your implementation, and submit all Java files.

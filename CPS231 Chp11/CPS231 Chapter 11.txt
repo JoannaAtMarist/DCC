@@ -1,0 +1,5 @@
+Chapter 11
+Project 1: Write a program that thoroughly tests the class AList (developed in the textbook starting with Listing 11-1). Include:
+1. A constructor that creates a list from a given array of objects.
+2. The method – public int getPosition(T anObject) – that returns the position of a given object in the list, where T is the generic type of the objects in the list.
+You must provide all the code necessary to compile and test your implementation, and submit all Java files .

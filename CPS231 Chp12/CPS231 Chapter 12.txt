@@ -1,0 +1,2 @@
+Chapter 12
+Project 1: Write a program that thoroughly tests the class LListWithTail (this begins with Listing 12-1 in the textbook and evolves through the discussion of tail references in section 12-24). Include methods that answer Exercises 1 and 2 in Chapter 10. Include interface definition, class implementing the interface, and the test program in your submitted work. Must contain all Java files to build and run the test.
